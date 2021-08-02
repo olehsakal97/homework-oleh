@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.container {
+    width: 1248px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.navigation {
+    margin-right: 400px;
+}
+
+.logo {
+    margin-right: 121px;
+    width: 50px;
+    height: 35px;
+}
+
+.nav-link {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.header-button {
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 5px rgba(75, 93, 104, 0.1);
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    padding: 17px 69px 17px 29px;
+    background-image: url(img/arrow.svg);
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.section-one {
+    margin-top: 130px;
+    background: url(./img/section1.svg) no-repeat 95% 53%;
+    background-position: right ;
+
+    height: 620px;
+    margin-bottom: 50px;
+
+    
+}
+    .container-one {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        width: 1248px;
+         margin: 0 auto;
+        justify-content: left;
+          
+        
+    }
+
+.section-one-text h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    color: #212353;
+    text-align: left;
+    width: 645px;
+    margin-bottom: 50px;
+    
+}
+
+.section-one-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4B5D68;
+    width: 380px;
+    margin-bottom: 50px;
+    
+}
+
+.section-one-button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #fff;
+    border-radius: 50px;
+    padding: 16px 37px 15px 37px;
+    background-color: #9C69E2;
+    border: none;
+}
+
+
+
+.container-two {
+    width: 1248px;
+    margin: 0 0;
+    align-items:flex-start;
+}
+
+.pink-block {
+    background: rgba(240, 99, 184, 0.15);
+    width: 1117px;
+    height: 560px;
+    margin: 0 -5px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 150px;
+}
+
+.pink-block-image img {
+    margin-top: 32px;
+    margin-right: 62px;
+}
+
+.pink-block-text {
+    width: 474px;
+    height: 310px;
+    margin-top: 50px;
+}
+
+.pink-block-text h2 {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    text-align: left;
+}
+
+.pink-block-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: left;
+    color: #4B5D68;
+}
+
+.features {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    align-items: center;
+    margin-right: 180px;
+    
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    color: #212353;
+    margin-bottom: 50px;
+}
+
+.features p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #4B5D68;
+    width: 584px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-right: 130px;
+}
+
+.card-item {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 132px;
+}
+
+.card-item img {
+    margin-right: 29px;
+    min-width: 232px;
+    min-height: 180px;
+}
+
+.card-item-header {
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #212353;
+    line-height: 130%;
+    margin-bottom: 20px;
+    align-items: left;
+}
+
+.card-item-paragraph {
+    width: 200px;
+    color: #4B5D68;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card-item-button {
+    line-height: 160%;
+    color: #212353;
+    padding: 17px 69px 17px 0;
+    background-image: url(img/arrow.svg);
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    background-color: #E5E5E5;
+    font-size: 16px;
+}
